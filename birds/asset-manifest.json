@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20dcde53.chunk.css",
+    "main.js": "/static/js/main.a591097f.chunk.js",
+    "main.js.map": "/static/js/main.a591097f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eb151a12.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eb151a12.js.map",
+    "static/js/2.7ca2d203.chunk.js": "/static/js/2.7ca2d203.chunk.js",
+    "static/js/2.7ca2d203.chunk.js.map": "/static/js/2.7ca2d203.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.40a57642a40baa302f9364b67b43da8d.js": "/precache-manifest.40a57642a40baa302f9364b67b43da8d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.20dcde53.chunk.css.map": "/static/css/main.20dcde53.chunk.css.map",
+    "static/js/2.7ca2d203.chunk.js.LICENSE": "/static/js/2.7ca2d203.chunk.js.LICENSE",
+    "static/media/Hoatzin.jpg": "/static/media/Hoatzin.24f4ccbf.jpg",
+    "static/media/Secretarybird.jpg": "/static/media/Secretarybird.c878fdba.jpg",
+    "static/media/bee_eater.jpg": "/static/media/bee_eater.1126f901.jpg",
+    "static/media/eagle.svg": "/static/media/eagle.e88d9fad.svg",
+    "static/media/finch.jpg": "/static/media/finch.14b3c455.jpg",
+    "static/media/frigatebird.jpg": "/static/media/frigatebird.4f5ac8e8.jpg",
+    "static/media/kakapo.jpg": "/static/media/kakapo.403b4444.jpg",
+    "static/media/oilbird.png": "/static/media/oilbird.0e429185.png",
+    "static/media/prairie_chicken.jpg": "/static/media/prairie_chicken.95294993.jpg",
+    "static/media/red_crossbill.jpg": "/static/media/red_crossbill.8a426da6.jpg",
+    "static/media/ruff.jpg": "/static/media/ruff.0be58cb2.jpg",
+    "static/media/shrike.jpg": "/static/media/shrike.3cd0023f.jpg",
+    "static/media/widowbird.jpeg": "/static/media/widowbird.e8baf91d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb151a12.js",
+    "static/js/2.7ca2d203.chunk.js",
+    "static/css/main.20dcde53.chunk.css",
+    "static/js/main.a591097f.chunk.js"
+  ]
+}
