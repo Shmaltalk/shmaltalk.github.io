@@ -1,0 +1,51 @@
+body {
+  background-color: #fae8ee;
+  color: gray;
+  font-family: Lato;
+}
+.main-column {
+  width: 800px;
+  margin: auto;
+}
+
+.page-heading {
+  text-align: center;
+  background: blueviolet;
+  width: 100%;
+  padding-block: 15px;
+}
+
+.title {
+  padding-top: 25px;
+  font-size: 32pt;
+}
+
+.intro {
+  display: flex;
+  padding-block: 15px;
+  height: auto;
+}
+
+.headshot {
+  width: 33%;
+  text-align: center;
+  min-width: 261;
+}
+
+.self-descrip {
+  width: 66%;
+  padding-left: 15px;
+}
+
+.subheading {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+@media (max-width: 800px) {
+  .main-column {
+    width: 100%;
+    min-width: 236px;
+  }
+}
