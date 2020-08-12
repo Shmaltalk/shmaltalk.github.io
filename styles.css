@@ -1,7 +1,8 @@
 body {
-  background-color: #fae8ee;
+  background-color: #ffdede26;
   color: gray;
   font-family: Lato;
+  border-top: 2px solid gray;
 }
 .main-column {
   width: 800px;
@@ -10,42 +11,81 @@ body {
 
 .page-heading {
   text-align: center;
-  background: blueviolet;
   width: 100%;
-  padding-block: 15px;
+  padding-top: 15px;
 }
 
 .title {
   padding-top: 25px;
-  font-size: 32pt;
+  font-size: 50pt;
+  color: black;
 }
 
 .intro {
   display: flex;
-  padding-block: 15px;
   height: auto;
+  flex-wrap: wrap;
+  padding-left: 2px;
 }
 
 .headshot {
   width: 33%;
-  text-align: center;
-  min-width: 261;
+  /* text-align: center; */
+  max-width: 600px;
+  padding-top: 22px;
 }
 
 .self-descrip {
-  width: 66%;
+  width: 64%;
   padding-left: 15px;
 }
 
 .subheading {
   font-size: 2em;
   font-weight: bold;
+  padding-top: 15px;
+  color: rgb(44, 44, 43);
+}
+
+.inner-text {
+  /* padding-left: 15px; */
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
+/* Link color specifications */
+a {
+  color: rgb(44, 44, 43);
+}
+
+a:hover {
+  color: rgb(65, 3, 34);
 }
 
 
 @media (max-width: 800px) {
   .main-column {
     width: 100%;
-    min-width: 236px;
+    min-width: 400px;
   }
+
+  .headshot {
+    width: 95%;
+    padding-top: 15px;
+  }
+
+  .self-descrip {
+    width: 100%;
+    padding-left: 0px;
+  }
+
 }
