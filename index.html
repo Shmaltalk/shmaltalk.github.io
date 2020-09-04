@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" /> 
     <link rel='icon' href='favicon.png' type='image/x-icon'/>
     <meta charset="utf-8"/>
     <title>Talie Town</title>
@@ -9,52 +9,65 @@
   <body>
     <script>0</script>
     <div class="main-column">
-      <div class="page-heading">
-        <span class="title">
-          Talie Massachi
-        </span>
-      </div>
+      <div class="content">
+        <div class="page-heading">
+          <span class="title">
+            Talie Massachi
+          </span>
 
-      <div class="intro">
-        
-        <div class="headshot">
-          <picture>
-            <source media="(min-width: 800px)" srcset="images/Bird.jpg" alt="headshot of me">
-            <img src="images/seagull.jpg" alt="full image of me">
-          </picture>
-        </div>
-
-        <div class="self-descrip">
-          <div class="subheading">
-            About me
-          </div>
-          <div class="inner-text">
-            Hi I'm Talie! I'm a Ph.D. student at Brown University in the human-computer interaction lab, advised by Jeff Huang.
-            I have a BS in Computer Science and Psychology from Brandeis University.
-            I'm interested in investigating better, more inclusive systems for mental health support.
-          </div>
-
-          <!-- <div class="subheading">
-            You can also find me at
-          </div> -->
-          <div class="inner-text">
+          <div class="menu">
             <ul>
-              <li><a href="https://github.com/Shmaltalk">Github</a></li>
-              <li><a href="https://scholar.google.com/citations?hl=en&user=xtcK73oAAAAJ">Google Scholar</a></li>
-              <li><a href="http://www.danielyeow.com/2011/drawing-molecules/">idk w/e</a></li>
+              <li><a href="#about-me">About Me</a></li>
+
+              <li><a href="#publications">Publications</a></li>
+
+              <li>Other Stuff</li>
             </ul>
           </div>
         </div>
 
-      </div>
+        <div class="intro">
+          <div class="headshot">
+            <picture>
+              <img src="images/pigeon.jpg" alt="full image of me">
+            </picture>
+          </div>
 
-      <div class="pubs">
-        <div class="subheading">
-          Publications
+          <div class="self-descrip">
+            <div class="subheading" id="about-me">
+              About me
+            </div>
+            <div class="inner-text">
+              Some kinda description I guess. I'm a Ph.D. student at Brown. Link to Jeff here. Something about Brandeis probably. Then one or two full sentences about my work specifically.
+            </div>
+
+
+            <div class="inner-text">
+              <ul>
+                <li><a href="https://github.com/Shmaltalk">Github</a></li>
+                <li><a href="https://scholar.google.com/citations?hl=en&user=xtcK73oAAAAJ">Google Scholar</a></li>
+                <li><a href="http://www.danielyeow.com/2011/drawing-molecules/">idk w/e</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-      </div>
+        <div class="pubs-list" id="publications">
+          <div class="subheading">
+            Publications
+          </div>
 
+          <div class="pub">
+            <div class="pub-title">
+              Sochiatrist: Signals of Affect in Messaging Data
+            </div>
+            <div class="pub-authors">
+              <em>Talie Massachi</em>, Grant Fong, Varun Mathur, Sachin Pendse, Gabriela Hoefer, Jessica Fu, Chong Wang, Nikita Ramoji, Nicole Nugent, Megan Ranney, Daniel Dickstein, Michael Armey, Ellie Pavlick, Jeff Huang 
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
   </body>
 </html>

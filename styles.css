@@ -1,11 +1,21 @@
 body {
-  background-color: #ffdede26;
-  color: gray;
-  font-family: Lato;
-  border-top: 2px solid gray;
+  background-color: #FFEFE8;
+  color: black;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 1em;
+  /* border-top: 2px solid gray; */
 }
 .main-column {
-  width: 800px;
+  max-width: 1000px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.content {
+  width: 75%;
+  min-width: 600px;
   margin: auto;
 }
 
@@ -17,38 +27,73 @@ body {
 
 .title {
   padding-top: 25px;
-  font-size: 50pt;
-  color: black;
+  font-size: 2.5em;
+  color: rgb(44, 44, 43);
+  font-weight: 200;
+}
+
+.menu {
+  /* width: 75%; */
+  margin: auto;
+  padding-top: 10px;
+}
+
+.menu > ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  color: rgb(44, 44, 43);
+}
+
+.menu > ul > li {
+  border-top: 2px solid #FFEFE8;
+  padding-top: 5px;
+}
+
+.menu > ul > li:hover {
+  border-top: 2px solid black;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
 }
 
 .intro {
   display: flex;
   height: auto;
-  flex-wrap: wrap;
-  padding-left: 2px;
+  flex-direction: row;
+  padding-top: 35px;
+  /* width: 75%; */
+  margin: auto;
 }
 
 .headshot {
   width: 33%;
-  /* text-align: center; */
-  max-width: 600px;
-  padding-top: 22px;
+  max-width: 400px;
+  padding-top: 36px;
 }
 
 .self-descrip {
   width: 64%;
-  padding-left: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 25px;
 }
 
 .subheading {
   font-size: 2em;
-  font-weight: bold;
-  padding-top: 15px;
-  color: rgb(44, 44, 43);
+  font-weight: 400;
+  padding-top: 25px;
 }
 
-.inner-text {
-  /* padding-left: 15px; */
+.pubs-list {
+  /* width: 75%;
+  margin: auto; */
+  padding-top: 15px;
+}
+
+.pub-title {
+  font-weight: bold;
 }
 
 img {
@@ -64,12 +109,9 @@ ul {
 
 /* Link color specifications */
 a {
-  color: rgb(44, 44, 43);
+  color: black;
 }
 
-a:hover {
-  color: rgb(65, 3, 34);
-}
 
 
 @media (max-width: 800px) {
@@ -78,9 +120,18 @@ a:hover {
     min-width: 400px;
   }
 
+  .content {
+    width: 90%;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
   .headshot {
-    width: 95%;
+    width: 100%;
     padding-top: 15px;
+    align-self: center;
   }
 
   .self-descrip {
