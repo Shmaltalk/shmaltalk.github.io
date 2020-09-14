@@ -4,4 +4,209 @@ body {
   font-family: Poppins;
   font-weight: 300;
   font-size: 1em;
+  --link-color: #4394B2;
+  /* --link-color: #7f0990, #004B48, #177E89, #69995D, #090C9B; */
+  /* border-top: 2px solid gray; */
+}
+.main-column {
+  max-width: 1000px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.content {
+  width: 75%;
+  min-width: 600px;
+  margin: auto;
+}
+
+.page-heading {
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.title {
+  padding-top: 25px;
+  font-size: 2.5em;
+  color: rgb(44, 44, 43);
+  font-weight: 200;
+}
+
+.menu {
+  /* width: 75%; */
+  margin: auto;
+  padding-top: 10px;
+}
+
+.menu > ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.menu > ul > li {
+  border-top: 2px solid #FFEFE8;
+  padding-top: 5px;
+}
+
+.menu > ul > li:hover {
+  border-top: 2px solid var(--link-color);
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+}
+
+
+
+
+.intro {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  padding-top: 35px;
+  padding-bottom: 8px;
+  /* width: 75%; */
+  margin: auto;
+}
+
+.headshot {
+  width: 33%;
+  max-width: 270px;
+  padding-top: 36px;
+}
+
+.self-descrip {
+  width: 64%;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 25px;
+}
+
+.subheading {
+  font-size: 2em;
+  font-weight: 400;
+  padding-top: 25px;
+}
+
+.personal-links > ul{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+
+
+
+.pubs-list {
+  /* width: 75%;
+  margin: auto; */
+  padding-top: 7px;
+}
+
+.pub {
+  padding-bottom: 8px;
+}
+
+.pub-title {
+  font-weight: bold;
+}
+
+.pub-authors {
+  font-size: .9em;
+}
+
+
+
+
+
+.proj-list {
+  padding-top: 7px; /* 15px from the pubs list - 8 because pubs have padding bottom*/
+}
+
+.proj {
+  padding-bottom: 8px;
+}
+
+.proj-title {
+  /* font-weight: bold; */
+  padding-right: 3px;
+}
+
+
+
+
+.other-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-obj {
+  display: flex;
+  min-width: 350px;
+  padding-bottom: 8px;
+}
+
+.other-img {
+  padding-top: 6px;
+  min-width: 100px;
+  max-width: 100px;
+
+}
+
+.other-text {
+  padding-left: 15px;
+}
+
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
+/* Link color specifications */
+a {
+  color: var(--link-color);
+}
+
+
+
+@media (max-width: 800px) {
+  .main-column {
+    width: 100%;
+    min-width: 400px;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .headshot {
+    width: 100%;
+    padding-top: 15px;
+    align-self: center;
+  }
+
+  .self-descrip {
+    width: 100%;
+    padding-left: 0px;
+  }
+
 }
