@@ -4,6 +4,8 @@ body {
   font-family: Poppins;
   font-weight: 300;
   font-size: 1em;
+  --link-color: #4394B2;
+  /* --link-color: #7f0990, #004B48, #177E89, #69995D, #090C9B; */
   /* border-top: 2px solid gray; */
 }
 .main-column {
@@ -42,7 +44,6 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  color: rgb(44, 44, 43);
 }
 
 .menu > ul > li {
@@ -51,25 +52,29 @@ body {
 }
 
 .menu > ul > li:hover {
-  border-top: 2px solid black;
+  border-top: 2px solid var(--link-color);
 }
 
 .menu > ul > li > a {
   text-decoration: none;
 }
 
+
+
+
 .intro {
   display: flex;
   height: auto;
   flex-direction: row;
   padding-top: 35px;
+  padding-bottom: 8px;
   /* width: 75%; */
   margin: auto;
 }
 
 .headshot {
   width: 33%;
-  max-width: 400px;
+  max-width: 270px;
   padding-top: 36px;
 }
 
@@ -86,15 +91,80 @@ body {
   padding-top: 25px;
 }
 
+.personal-links > ul{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+
+
+
 .pubs-list {
   /* width: 75%;
   margin: auto; */
-  padding-top: 15px;
+  padding-top: 7px;
+}
+
+.pub {
+  padding-bottom: 8px;
 }
 
 .pub-title {
   font-weight: bold;
 }
+
+.pub-authors {
+  font-size: .9em;
+}
+
+
+
+
+
+.proj-list {
+  padding-top: 7px; /* 15px from the pubs list - 8 because pubs have padding bottom*/
+}
+
+.proj {
+  padding-bottom: 8px;
+}
+
+.proj-title {
+  /* font-weight: bold; */
+  padding-right: 3px;
+}
+
+
+
+
+.other-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-obj {
+  display: flex;
+  min-width: 350px;
+  padding-bottom: 8px;
+}
+
+.other-img {
+  padding-top: 6px;
+  min-width: 100px;
+  max-width: 100px;
+
+}
+
+.other-text {
+  padding-left: 15px;
+}
+
+
+
+
 
 img {
   max-width: 100%;
@@ -109,7 +179,7 @@ ul {
 
 /* Link color specifications */
 a {
-  color: black;
+  color: var(--link-color);
 }
 
 
