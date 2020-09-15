@@ -49,6 +49,7 @@ body {
 .menu > ul > li {
   border-top: 2px solid #FFEFE8;
   padding-top: 5px;
+  font-size: 1em;
 }
 
 .menu > ul > li:hover {
@@ -95,6 +96,7 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  font-size: 1em;
 }
 
 
