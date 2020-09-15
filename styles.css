@@ -10,13 +10,13 @@ body {
 }
 .main-column {
   max-width: 1000px;
-  width: 80%;
+  width: 95%;
   margin: auto;
   align-items: center;
 }
 
 .content {
-  width: 75%;
+  width: 90%;
   min-width: 600px;
   margin: auto;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .self-descrip {
-  width: 64%;
+  width: 100%;
   text-align: justify;
   text-justify: inter-word;
   padding-left: 25px;
@@ -128,11 +128,6 @@ body {
 
 .proj {
   padding-bottom: 8px;
-}
-
-.proj-title {
-  /* font-weight: bold; */
-  padding-right: 3px;
 }
 
 
@@ -184,7 +179,7 @@ a {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .main-column {
     width: 100%;
     min-width: 400px;
