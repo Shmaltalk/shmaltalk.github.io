@@ -1,3 +1,4 @@
+/* Central objects */
 body {
   background-color: #FFEFE8;
   color: black;
@@ -8,6 +9,7 @@ body {
   /* --link-color: #7f0990, #004B48, #177E89, #69995D, #090C9B; */
   /* border-top: 2px solid gray; */
 }
+
 .main-column {
   max-width: 1000px;
   width: 95%;
@@ -35,6 +37,7 @@ body {
   margin: 0px;
 }
 
+/* For Reuse */
 .menu {
   /* width: 75%; */
   margin: auto;
@@ -60,9 +63,32 @@ body {
   text-decoration: none;
 }
 
+.subheading {
+  font-size: 2em;
+  font-weight: 400;
+  padding-top: 25px;
+  margin: 0;
+}
+
+.note {
+  padding-bottom: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
+/* Link color specifications */
+a {
+  color: var(--link-color);
+}
 
 
 
+/* Single Use */
 .intro {
   display: flex;
   height: auto;
@@ -84,13 +110,6 @@ body {
   text-align: justify;
   text-justify: inter-word;
   padding-left: 25px;
-}
-
-.subheading {
-  font-size: 2em;
-  font-weight: 400;
-  padding-top: 25px;
-  margin: 0;
 }
 
 .personal-links > ul{
@@ -125,7 +144,7 @@ body {
 
 
 .proj-list {
-  padding-top: 7px; /* 15px from the pubs list - 8 because pubs have padding bottom*/
+  padding-top: 7px; /* 15px from the pubs list -8 because pubs have padding bottom*/
 }
 
 .proj {
@@ -165,18 +184,6 @@ body {
 
 img {
   max-width: 100%;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-
-/* Link color specifications */
-a {
-  color: var(--link-color);
 }
 
 
