@@ -1,0 +1,19 @@
+body {
+  background-color: #f9f9f9;
+  color: #025955;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 1.2em;
+  --link-color: #4394B2;
+  text-align: center;
+  /* --link-color: #7f0990, #004B48, #177E89, #69995D, #090C9B; */
+  /* border-top: 2px solid gray; */
+}
+
+
+.go-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10%;
+  margin: 10px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="GLOStyle.css">
+    <link rel='icon' href='../favicon.png' type='image/x-icon'/>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Talie Massachi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLO CSV Downloader</title>
+  </head>
+  <body>
+    <h1>
+      Get ActionNetwork CSV from Knack CSVs
+    </h1>
+    <div>
+      <h2>
+        Emails
+      </h2>
+      <p>
+        Upload your email csv from Knack here.
+        Make sure it is filtered so that it does not include emails on the DO NOT EMAIL list
+      </p>
+      <input type="file" name="emailUpload" id="inputEmailsCSV" accept=".csv">
+      <!--Upload thing here-->
+    </div>
+
+
+    <div>
+      <h2>
+        People
+      </h2>
+      <p>
+        Upload your people csv from Knack here.
+        Make sure it is filtered so that it only includes the groups you want (ie. only BU or only members etc.)
+      </p>
+      <input type="file" name="peopleUpload" id="inputPeopleCSV" accept=".csv">
+      <!--Upload thing here-->
+    </div>
+
+    <div>
+      <h2>
+        Filter for Dates
+      </h2>
+      <p>
+        Please provide the latest YEAR that grads should be considered graduated. We will exclude grads expected to graduate before THAT MAY.<br>
+        EX) responding 2020 will EXCLUDE all grads with expected graduation BEFORE MAY 2020.<br>
+        (defaults to 2020)
+      </p>
+      <div>
+        <input type="number" id="year">
+      </div>
+      <!--Get int value-->
+    </div>
+
+    <div>
+      <!-- GO BUTTON HERE -->
+      <button class="go-button">GET CSV</button>
+      <!-- DOWNLOAD CSV HERE-->
+    </div>
+
+    <div>
+      Notes: All computation is done locally.<br> We include all people with no estimated grad year.
+    </div>
+
+    <script type="module" src="scripts.js"></script>
+    <!-- <script>var $ = {};</script>
+    <script src="jquery.csv.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <noscript>You need to enable JavaScript to use this system.</noscript>
+  </body>
+</html>
