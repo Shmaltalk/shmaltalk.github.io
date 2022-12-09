@@ -44,6 +44,10 @@ body {
   padding-right: 15px;
 }
 
+.faq-body {
+  text-align: left;
+}
+
 iframe {
   width: 90%;
   max-width: 640px;
@@ -51,3 +55,4 @@ iframe {
   max-height: 800px;
   margin-bottom: 30px;
 }
+
