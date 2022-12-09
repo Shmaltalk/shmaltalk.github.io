@@ -27,6 +27,7 @@ body {
   text-align: center;
   width: 100%;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .title {
@@ -66,7 +67,7 @@ body {
 .subheading {
   font-size: 2em;
   font-weight: 400;
-  padding-top: 25px;
+  padding-top: 32px;
   margin: 0;
 }
 
@@ -93,7 +94,6 @@ a {
   display: flex;
   height: auto;
   flex-direction: row;
-  padding-top: 35px;
   padding-bottom: 8px;
   /* width: 75%; */
   margin: auto;
@@ -102,7 +102,7 @@ a {
 .headshot {
   width: 33%;
   max-width: 270px;
-  padding-top: 36px;
+  padding-top: 43px;
 }
 
 .self-descrip {
@@ -124,7 +124,7 @@ a {
 .pubs-list {
   /* width: 75%;
   margin: auto; */
-  padding-top: 7px;
+  /* padding-top: 7px; */
 }
 
 .pub {
@@ -144,7 +144,7 @@ a {
 
 
 .proj-list {
-  padding-top: 7px; /* 15px from the pubs list -8 because pubs have padding bottom*/
+  /* padding-top: 7px; 15px from the pubs list -8 because pubs have padding bottom */
 }
 
 .proj {
