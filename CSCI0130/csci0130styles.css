@@ -24,6 +24,11 @@ body {
   margin: 0;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 
 .instructor-info {
   display: flex;
@@ -35,14 +40,15 @@ body {
 
 .instructor {
   display: flex;
+  flex-direction: column;
   padding-top: 8px;
+  width: 385px;
 }
 
 .instructor-text {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
-  width: 256px;
 }
 
 .faq-body {
