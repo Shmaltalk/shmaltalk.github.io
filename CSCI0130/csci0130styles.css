@@ -15,11 +15,6 @@ body {
 }
 
 .title {
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  width: 50%;
-  min-width: 125px;
   color: #f96d60;
   font-weight: 700;
 }
@@ -58,6 +53,7 @@ body {
 
 .instructor-text {
   display: flex;
+  flex-direction: column;
   padding-left: 15px;
   padding-right: 15px;
 }
