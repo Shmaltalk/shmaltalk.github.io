@@ -9,7 +9,17 @@ body {
   /* border-top: 2px solid gray; */
 }
 
+.header-container{
+  position: relative;
+  text-align: center;
+}
+
 .title {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  min-width: 125px;
   color: #f96d60;
   font-weight: 700;
 }
@@ -42,6 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 8px;
+  padding-bottom: 8px;
   width: 385px;
 }
 
