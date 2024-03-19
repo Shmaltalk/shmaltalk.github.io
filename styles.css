@@ -98,6 +98,8 @@ ul {
 .split-col-img {
   min-width: 100px;
   max-width: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .split-col-content {
@@ -114,8 +116,12 @@ a {
 /* Single Use */
 
 .announcement {
-  padding-top: 8px;
-  text-align: center;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  border: 3px black dashed;
+  text-align: left;
+  background: #FBDCD8;
 }
 
 .intro {
@@ -131,6 +137,8 @@ a {
   width: 33%;
   max-width: 270px;
   padding-top: 43px;
+  display: flex;
+  align-items: center;
 }
 
 .self-descrip {
