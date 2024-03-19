@@ -49,6 +49,8 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
 }
 
 .menu > ul > li {
@@ -81,6 +83,27 @@ ul {
   margin-bottom: 0;
 }
 
+.img {
+  max-width: 100%;
+}
+
+.bold-title {
+  font-weight: bold;
+}
+
+.descrip {
+  /*  */
+}
+
+.split-col-img {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.split-col-content {
+  padding-left: 15px;
+}
+
 
 /* Link color specifications */
 a {
@@ -88,8 +111,13 @@ a {
 }
 
 
-
 /* Single Use */
+
+.announcement {
+  padding-top: 8px;
+  text-align: center;
+}
+
 .intro {
   display: flex;
   height: auto;
@@ -116,6 +144,8 @@ a {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 
@@ -131,23 +161,29 @@ a {
   padding-bottom: 8px;
 }
 
-.pub-title {
+/* .pub-title {
   font-weight: bold;
-}
+} */
 
-.pub-authors {
+/* .pub-authors {
   font-size: .9em;
-}
+} */
 
 
 
 
 
 .proj-list {
+  /* display: flex; */
   /* padding-top: 7px; 15px from the pubs list -8 because pubs have padding bottom */
 }
 
+/* .proj-title {
+  font-weight: bold;
+} */
+
 .proj {
+  display: flex;
   padding-bottom: 8px;
 }
 
@@ -168,7 +204,6 @@ a {
 }
 
 .other-img {
-  padding-top: 6px;
   min-width: 100px;
   max-width: 100px;
 
@@ -176,8 +211,20 @@ a {
 
 .other-text {
   padding-left: 15px;
+} 
+
+.courses-list {
+  /*  */
 }
 
+.course {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+/* .course-title {
+  font-weight: bold;
+} */
 
 
 
