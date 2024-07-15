@@ -1,0 +1,23 @@
+body {
+  background-color: #030E17DE;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  --link-color: #60c6bf; /*46bfb7 */
+  --secondary-color: #f96d60;/*#60c6bf;
+  /* --link-color: #7f0990, #004B48, #177E89, #69995D, #090C9B; */
+  /* border-top: 2px solid gray; */
+}
+
+.title {
+  color: #f96d60;
+  font-weight: 700;
+}
+
+.subheading {
+  color: var(--secondary-color);
+}
+
+.subsubheading {
+  color: var(--secondary-color);
+}

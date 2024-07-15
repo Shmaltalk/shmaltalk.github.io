@@ -1,0 +1,194 @@
+/***
+  Setup
+***/
+body {
+  background-color: #000000;
+  color: #f8f8f8;
+  font-family: 'Inter';
+  font-weight: 500;
+  text-align: center;
+  --link-color: #313946; /*46bfb7 */
+  --primary-color: #f8f8f8;
+  --secondary-color: #313946;
+  --accent-color: #ffc747;/*#60c6bf;*/
+  --accent-color-2: #5d3011;
+
+  max-width: 100%;
+  margin: 0;
+  
+  /* --link-color: #7f0990, #004B48, #177E89, #69995D, #090C9B; */
+  /* border-top: 2px solid gray; */
+}
+
+.section {
+  max-width: 100%;
+  /* width: 95%; */
+  margin:0%;
+  align-items: center;
+}
+
+.subheading {
+  font-family: 'Bagel Fat One';
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  padding-top: 0;
+}
+
+.subsubheading {
+  font-family: 'Bagel Fat One';
+  font-size: 1rem;
+  text-transform: uppercase;
+
+}
+
+.content {
+  width: 85%;
+  max-width: 1000px;
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+
+.yellow {
+  background-color: var(--accent-color);
+  color: var(--accent-color-2);
+}
+
+.yellow > a {
+  color: var(--accent-color-2);
+}
+.white {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.blue {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.a {
+  color: inherit;
+}
+
+/***
+  Sections
+***/
+
+
+/* set up floating nav bar */
+.topbar {
+  position: fixed;
+  z-index: 1030;
+  top: 0;
+  width: 100%;
+  border-bottom-left-radius: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background: var(--accent-color);
+  max-height: 7vh;
+  align-items: center;
+  /*min-height: 7vh;
+  min-width: 100vw;
+  margin: 0px;
+  transition: all 0.2s ease 0s;*/
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu > ul {
+  gap: 30px;
+  margin: 0;
+}
+
+.menu > ul > li {
+  border-top: none;
+  padding-top: 0;
+  color: var(--accent-color-2)
+}
+
+.menu > ul > li:hover {
+  border-top: none;
+  color: var(--primary-color)
+}
+
+.menu > ul > li > a {
+  color: inherit;
+}
+
+.home-icon {
+  height: 2em;
+}
+
+
+/** setup helpful links **/
+.link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-col {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* font-size: 0.8em; */
+}
+
+.link-col > a {
+  text-decoration: none;
+  margin-top: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.link-col > a:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+/** setup schedule **/
+
+
+.schedule-descrip {
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+/** setup instructors **/
+.other-img {
+  max-width: 160px;
+}
+.instructor-descrip {
+  text-align: justify;
+}
+
+.instructor-text {
+  margin: auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.instructor-text > a{
+  color: var(--accent-color);
+}
+
+/** setup faq **/
+.faq {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.faq-body {
+  text-align: justify;
+}
