@@ -42,7 +42,7 @@ body {
 .menu {
   /* width: 75%; */
   margin: auto;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .menu > ul {
@@ -119,10 +119,11 @@ a {
 .announcement {
   padding: 5px 10px;
   width: 70%;
-  margin: 20px auto auto auto;
+  margin: 25px auto auto auto;
   border: 3px black dashed;
   text-align: left;
   background: #FBDCD8;
+  border-radius: 1em;
 }
 
 .intro {
@@ -140,6 +141,10 @@ a {
   padding-top: 43px;
   display: flex;
   align-items: center;
+}
+
+.headshot > img {
+  border-radius: 2em;
 }
 
 .self-descrip {
@@ -252,6 +257,17 @@ img {
 
   .content {
     width: 100%;
+  }
+
+  .menu {
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    border-top: 2px solid;
+  }
+
+  .menu > ul {
+    flex-direction: column;
+    margin-top: 5px
   }
 
   .intro {
