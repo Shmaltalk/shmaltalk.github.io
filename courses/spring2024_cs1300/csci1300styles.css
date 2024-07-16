@@ -177,7 +177,9 @@ body {
   margin: auto;
   padding-bottom: 10px;
   text-align: center;
+  padding-right: 5px;
 }
+
 .instructor-text > a{
   color: var(--accent-color);
 }
@@ -191,4 +193,33 @@ body {
 
 .faq-body {
   text-align: justify;
+}
+
+
+/**** MOBILE ****/
+
+@media (max-width: 600px) {
+  .link-container {
+    flex-direction: column;
+  }
+
+  .link-col {
+    margin-bottom: 15px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .instructor {
+    min-width: 300px;
+  }
+
+  .other-img {
+    margin: auto;
+  }
+
+  .faq {
+    width: 100%;
+  }
 }
