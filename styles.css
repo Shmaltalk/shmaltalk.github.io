@@ -38,6 +38,11 @@ body {
   margin: 0px;
 }
 
+
+
+
+
+
 /* For Reuse */
 .menu {
   /* width: 75%; */
@@ -205,15 +210,14 @@ a {
 
 
 .other-list {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 .other-obj {
   display: flex;
-  /* min-width: 350px; */
   padding-bottom: 8px;
 }
 
@@ -225,7 +229,7 @@ a {
 
 .other-text {
   padding-left: 15px;
-} 
+}
 
 .courses-list {
   /*  */
