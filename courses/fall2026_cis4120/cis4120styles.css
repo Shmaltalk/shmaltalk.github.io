@@ -147,6 +147,11 @@ body {
   height: 2em;
 }
 
+.row  {
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
 
 /** setup helpful links **/
 .link-container {
