@@ -20,6 +20,8 @@
 .row {
   display: flex;
   flex-direction: row;
+  gap: 1.25rem;
+  align-items: flex-start;
 }
 
 .instructor-info {
