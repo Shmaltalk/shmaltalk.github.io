@@ -34,9 +34,9 @@
           </nav>
         </header>
 
-        <div class="announcement">
-            <p>Looking for the CIS 4120/5120 website? <a href="courses/cis4120/">Click here!</a></p>
-        </div>
+        <!-- <div class="announcement">
+            <p>I'm currently on the job market for academic positions with a strong focus on teaching, starting Summer or Fall 2025. Please feel free to reach out :)</p>
+        </div> -->
 
         <div class="intro">
           <div class="headshot">
@@ -55,7 +55,7 @@
               advised by <a href="https://jeffhuang.com/">Prof. Jeff Huang</a>.
               My research focuses on how we build and maintain social support networks over social media and other online communication.
               Previously, I worked as a software engineer at <a href="https://constructor.io/">constructor.io</a>.
-              I graduated from Brandeis University in 2018, where I majored in computer science and psychology.
+              I graduated from Brandeis University in 2018, where I majored in computer science and psychology. OOPS.
             </p>
 
 
@@ -125,31 +125,11 @@
 
           <div class="course">
             <div class="split-col-img">
-              <a href="courses/cis4120/"><img src="images/cis4120-cat.png" alt="a drawing of a striped orange cat sleeping on an old-style desktop computer that has the text 'HCI' on it. Illustration by Kate (Suhyoon) Hong."></a>
-            </div>
-            <div class="split-col-content">
-              <div class="bold-title">
-                CIS 4120/5120: Intro to UI/UX Design & HCI Methods
-              </div>
-
-              <div class="decrip">
-                University of Pennsylvania, Fall 2026, 120 students.
-              </div>
-
-              <div class="course-links">
-                <a href="courses/cis4120/">Website</a>
-                <a href="https://docs.google.com/document/d/1HfwbjQaB1tSDnZWU0m16Oqo4GOdrArLsLA1KaDCYts0/edit?usp=sharing">Syllabus</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="course">
-            <div class="split-col-img">
               <a href="courses/cit5940"><img src="images/cit5940-bird.png" alt="a drawing of a pelican sitting on its butt. Illustration by Carlos Vega."></a>
             </div>
             <div class="split-col-content">
               <div class="bold-title">
-                CIT 5940: Data Structures & Software Design
+                CSCI 5940: Data Structures & Software Design
               </div>
 
               <div class="decrip">

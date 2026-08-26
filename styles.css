@@ -235,6 +235,11 @@ a {
   /*  */
 }
 
+.course-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .course {
   display: flex;
   padding-bottom: 8px;
